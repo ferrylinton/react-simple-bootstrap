@@ -1,0 +1,31 @@
+.login-form {
+  width: 350px;
+  background-color: #fff;
+  border: solid 1px #e5e3e3;
+  padding: 30px;
+
+  .form-control {
+    border-width: 0 0 1px 0;
+  }
+
+  .form-control:focus{
+    box-shadow: none;
+  }
+
+  .form-floating {
+
+    .form-control {
+      padding: 1rem 5px;
+    }
+
+    label {
+      padding: 1rem 0;
+      color: #86898b;
+    }
+
+    .form-control:focus ~ label{
+      transform: scale(0.65) translateY(-0.5rem) translateX(0.15rem);
+    }
+
+  }
+}
